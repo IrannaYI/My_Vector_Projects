@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        display: grid;
+        width: 815px;
+        height: 815px;
+        grid-template-columns: repeat(8,auto);
+        margin: auto;
+        border: 5px  solid ;
+        border-style: double;
+    }
+    .main div{
+        border: 1px solid;
+        height: 100px;
+        width: 100px;
+    }
+    .b{
+        background-color: rgb(133, 130, 103);
+    }
+    .w{
+        background-color: rgb(160, 160, 224);
+    }
+
+    i{
+        font-size: 50px;
+        padding: 25px;
+    }
+
+
+    .name{
+        display: grid;
+        width: 800px;
+        height: 50px;
+        grid-template-columns: repeat(8,auto);
+        margin: auto;
+        font-weight: bolder;
+        font-size: larger;
+        text-align: center;
+    }
+    .num{
+        display: grid;
+        width: 5px;
+        /* height: 800px; */
+        grid-template-columns: repeat(1,auto);
+        
+    }
+    .num div{
+        /* display: inline-block; */
+        border: 1px solid;
+    }
+</style>
+
+</head>
+<body>
+    <div class="name"> 
+
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+    </div>
+    <!-- <div class="num">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div> -->
+
+
+    <div class="main">
+        <div class="b"><i class="fa-solid fa-chess-rook"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-knight"></i></div>
+        <div class="b"><i class="fa-duotone fa-solid fa-chess-bishop"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-king"></i></div>
+        <div class="b"><i class="fa-regular fa-chess-queen"></i></div>
+        <div class="w"><i class="fa-duotone fa-solid fa-chess-bishop"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-knight"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-rook"></i></div>
+
+        <div class="w"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn"></i></div>
+
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+        <div class="w"></div>
+        <div class="b"></div>
+
+        <div class="b"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-pawn" style="color: white;"></i></div>
+
+        
+        <div class="w"><i class="fa-solid fa-chess-rook" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-knight" style="color: white;"></i></div>
+        <div class="w"><i class="fa-duotone fa-solid fa-chess-bishop" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-king" style="color: white;"></i></div>
+        <div class="w"><i class="fa-regular fa-chess-queen" style="color: white;"></i></div>
+        <div class="b"><i class="fa-duotone fa-solid fa-chess-bishop" style="color: white;"></i></div>
+        <div class="w"><i class="fa-solid fa-chess-knight" style="color: white;"></i></div>
+        <div class="b"><i class="fa-solid fa-chess-rook" style="color: white;"></i></div>
+
+    </div>
+
+
+</body>
+</html>
